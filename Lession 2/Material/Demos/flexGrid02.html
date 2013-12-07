@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title>Flexible Grid</title>
+    </head>
+    <body>
+    	<div class="container">
+		  <section>...</section>
+		  <aside>...</aside>
+		</div>
+
+		<style>
+			.container {
+			  max-width: 660px;
+			}
+			section {
+			  float: left;
+			  height: 200px;
+			  background: lightGray;
+			  margin: 1.51515151%;   /*  10px / 660px = .01515151 */
+			  width: 63.63636363%;   /* 420px / 660px = .63636363 */   
+			}
+			aside {
+			  float: right;
+			  height: 200px;
+			  background: lightGray;
+			  margin: 1.51515151%;   /*  10px / 660px = .01515151 */
+			  width: 30.30303030%;   /* 200px / 660px = .30303030 */
+			}
+		</style>
+    </body>
+</html>
+
+
+

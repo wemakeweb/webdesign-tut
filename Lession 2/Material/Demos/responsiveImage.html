@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		#image { 
+			background-image: url(largeimage.jpg); 
+			width: 100%;
+			height: 500px;
+			background-size: cover;
+
+		}
+		@media only screen and (max-width: 320px) {
+			#image { 
+				background-image: url(smallimage.jpg); 
+			}
+		}
+		</style>
+	</head>
+	<body>
+		<div id="image"></div>
+	</body>
+</html>
